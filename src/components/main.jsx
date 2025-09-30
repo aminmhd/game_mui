@@ -7,10 +7,24 @@ import Cart from "./Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
 import { getGames } from "../redux/gameSlice/GameSlice";
 
+
+
+import { m } from "../paraglide/messages.js"
+// import updatepir_invalidheader4 from "../paraglide/messages"
+import { setLocale } from "../paraglide/runtime";
+
+
+
+
 export default function Main() {
     const gamesList = useSelector((store) => store.gamesApiSlice.games);
     const isLoading = useSelector((store) => store.gamesApiSlice.isLoading);
     const dispatch = useDispatch();
+    // setLocale("en")
+    console.log(
+        m["addClient.successHeader"]({ locale: "en" })
+    );
+
 
     useEffect(() => {
         dispatch(getGames());
@@ -24,7 +38,7 @@ export default function Main() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '100vh', 
+                    height: '100vh',
                 }}
             >
                 <CircularProgress color="blue" />
