@@ -6,6 +6,7 @@ import Main from './components/main';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import { createTheme, ThemeProvider } from '@mui/material';
+import { ParaglideProvider } from './context/paraglideContext';
 
 
 
@@ -19,11 +20,13 @@ function App() {
 
 
   return (
-    <Provider store={store}>
-      <ThemeProvider theme={THEME}>
-        <Main />
-      </ThemeProvider>
-    </Provider>
+    <ParaglideProvider>
+      <Provider store={store}>
+        <ThemeProvider theme={THEME}>
+          <Main />
+        </ThemeProvider>
+      </Provider>
+    </ParaglideProvider>
   );
 }
 

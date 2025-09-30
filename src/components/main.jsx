@@ -10,20 +10,30 @@ import { getGames } from "../redux/gameSlice/GameSlice";
 
 
 import { m } from "../paraglide/messages.js"
+// import { localizeUrl } from "../paraglide/runtime.js";
+// import { compile } from "@inlang/paraglide-js";
 // import updatepir_invalidheader4 from "../paraglide/messages"
-import { setLocale } from "../paraglide/runtime";
+import { getLocale, setLocale } from "../paraglide/runtime";
 
 
+// await compile({
+// 	project: "../../project.inlang",
+// 	outdir: "../src/paraglide",
+// });
 
 
 export default function Main() {
     const gamesList = useSelector((store) => store.gamesApiSlice.games);
     const isLoading = useSelector((store) => store.gamesApiSlice.isLoading);
     const dispatch = useDispatch();
-    // setLocale("en")
+
+    setLocale("fr")
+    console.log(getLocale())
     console.log(
-        m["addClient.successHeader"]({ locale: "en" })
-    );
+        m["addClient.successHeader"]());
+    console.log(
+        m["greetingXXX.greeting"]({name: "amin"})
+    )
 
 
     useEffect(() => {

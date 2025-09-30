@@ -1,1 +1,120 @@
-{"$schema":"https://inlang.com/schema/inlang-message-format","fallbackError":{"required":"Erforderlich","success":"Erfolg","error":"Fehler","incorrect":"Falsch"},"emailAddress":{"required":"Bitte geben Sie eine gültige Emailadresse ein.","incorrect":"Ihr Emailadresse ist falsch."},"userName":{"required":"Bitte geben Sie einen Benutzernamen ein.","incorrect":"Ihr Benutzername oder Passwort ist falsch."},"password":{"required":"Bitte Passwort eingeben.","incorrect":"Ihr Benutzername oder Passwort ist falsch."},"firstName":{"required":"Bitte geben Sie eine gültige Vorname ein."},"lastName":{"required":"Bitte geben Sie eine gültige Nachname ein."},"resetPassword":{"success":"Ändern Sie Ihr Passwort mit dem temporären Passwort.","invalidURL":"Ungültige URL zum Zurücksetzen des Passworts."},"changePassword":{"success":"Die Änderungen wurden erfolgreich durchgeführt.","mismatch":"Die Passwörter stimmen nicht überein."},"forgotPassword":{"success":"Eine Email wurde erfolgreich versendet.","invalid":"Bitte geben Sie eine gültige Emailadresse ein."},"addUnit":{"successHeader":"Erfolgreich","successDescription":"Einheit erfolgreich hinzugefügt.","invalidHeader":"Fehlgeschlagen","invalidDescription":"Hinzufügen der Einheit fehlgeschlagen."},"editUnit":{"successHeader":"Erfolgreich","successDescription":"Einheit erfolgreich aktualisiert.","invalidHeader":"Fehlgeschlagen","invalidDescription":"Gerät konnte nicht aktualisiert werden."},"addClient":{"successHeader":"Erfolgreich","successDescription":"Benutzer erfolgreich hinzugefügt.","invalidHeader":"Fehlgeschlagen","invalidDescription":"Benutzer konnte nicht hinzugefügt werden."},"editClient":{"successHeader":"Erfolgreich","successDescription":"Benutzer erfolgreich aktualisiert.","invalidHeader":"Fehlgeschlagen","invalidDescription":"Benutzer konnte nicht hinzugefügt werden."},"updateConfig":{"successHeader":"Erfolgreich","successDescription":"Konfiguration erfolgreich aktualisiert.","invalidHeader":"Fehlgeschlagen.","invalidDescription":"Konfig konnte nicht aktualisiert werden."},"deleteUnit":{"success":"Einheit erfolgreich gelöscht.","invalid":"Einheit konnte nicht gelöscht werden."},"deleteSensor":{"success":"Sensor erfolgreich gelöscht.","invalid":"Sensor konnte nicht gelöscht werden."},"editSensor":{"successHeader":"Erfolgreich","successDescription":"Sensor erfolgreich aktualisiert.","invalidHeader":"Fehlgeschlagen","invalidDescription":"Sensor konnte nicht aktualisiert werden."},"addUserAccess":{"successHeader":"Erfolgreich","successDescription":"Benutzer erfolgreich zugewiesen","invalidHeader":"Fehlgeschlagen","invalidDescription":"Benutzerzuweisung fehlgeschlagen"},"removeUserAccess":{"successHeader":"Erfolgreich","successDescription":"Benutzer erfolgreich entfernt","invalidHeader":"Fehlgeschlagen","invalidDescription":"Entfernen des Benutzers fehlgeschlagen."},"deleteConfig":{"successHeader":"Erfolgreich","successDescription":"Konfiguration erfolgreich entfernt","invalidHeader":"Fehlgeschlagen","invalidDescription":"Die Konfiguration konnte nicht entfernt werden."},"testConfig":{"success":"Erfolgreich","invalid":"Fehlgeschlagen"},"updatePIR":{"successHeader":"Erfolg","successDescription":"PIR-Bewegungsmelder-Wert wurde erfolgreich aktualisiert","invalidHeader":"Fehler","invalidDescription":"PIR-Bewegungsmelder-Wert konnte nicht aktualisiert werden"},"deletePIR":{"successHeader":"Erfolg","successDescription":"PIR-Bewegungsmelder-Wert wurde erfolgreich gelöscht","invalidHeader":"Fehler","invalidDescription":"PIR-Bewegungsmelder-Wert konnte nicht gelöscht werden"}}
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "fallbackError": {
+        "required": "Erforderlich",
+        "success": "Erfolg",
+        "error": "Fehler",
+        "incorrect": "Falsch"
+    },
+    "emailAddress": {
+        "required": "Bitte geben Sie eine gültige Emailadresse ein.",
+        "incorrect": "Ihr Emailadresse ist falsch."
+    },
+    "userName": {
+        "required": "Bitte geben Sie einen Benutzernamen ein.",
+        "incorrect": "Ihr Benutzername oder Passwort ist falsch."
+    },
+    "password": {
+        "required": "Bitte Passwort eingeben.",
+        "incorrect": "Ihr Benutzername oder Passwort ist falsch."
+    },
+    "firstName": {
+        "required": "Bitte geben Sie eine gültige Vorname ein."
+    },
+    "lastName": {
+        "required": "Bitte geben Sie eine gültige Nachname ein."
+    },
+    "resetPassword": {
+        "success": "Ändern Sie Ihr Passwort mit dem temporären Passwort.",
+        "invalidURL": "Ungültige URL zum Zurücksetzen des Passworts."
+    },
+    "changePassword": {
+        "success": "Die Änderungen wurden erfolgreich durchgeführt.",
+        "mismatch": "Die Passwörter stimmen nicht überein."
+    },
+    "forgotPassword": {
+        "success": "Eine Email wurde erfolgreich versendet.",
+        "invalid": "Bitte geben Sie eine gültige Emailadresse ein."
+    },
+    "addUnit": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Einheit erfolgreich hinzugefügt.",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Hinzufügen der Einheit fehlgeschlagen."
+    },
+    "editUnit": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Einheit erfolgreich aktualisiert.",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Gerät konnte nicht aktualisiert werden."
+    },
+    "addClient": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Benutzer erfolgreich hinzugefügt.",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Benutzer konnte nicht hinzugefügt werden."
+    },
+    "editClient": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Benutzer erfolgreich aktualisiert.",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Benutzer konnte nicht hinzugefügt werden."
+    },
+    "updateConfig": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Konfiguration erfolgreich aktualisiert.",
+        "invalidHeader": "Fehlgeschlagen.",
+        "invalidDescription": "Konfig konnte nicht aktualisiert werden."
+    },
+    "deleteUnit": {
+        "success": "Einheit erfolgreich gelöscht.",
+        "invalid": "Einheit konnte nicht gelöscht werden."
+    },
+    "deleteSensor": {
+        "success": "Sensor erfolgreich gelöscht.",
+        "invalid": "Sensor konnte nicht gelöscht werden."
+    },
+    "editSensor": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Sensor erfolgreich aktualisiert.",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Sensor konnte nicht aktualisiert werden."
+    },
+    "addUserAccess": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Benutzer erfolgreich zugewiesen",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Benutzerzuweisung fehlgeschlagen"
+    },
+    "removeUserAccess": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Benutzer erfolgreich entfernt",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Entfernen des Benutzers fehlgeschlagen."
+    },
+    "deleteConfig": {
+        "successHeader": "Erfolgreich",
+        "successDescription": "Konfiguration erfolgreich entfernt",
+        "invalidHeader": "Fehlgeschlagen",
+        "invalidDescription": "Die Konfiguration konnte nicht entfernt werden."
+    },
+    "testConfig": {
+        "success": "Erfolgreich",
+        "invalid": "Fehlgeschlagen"
+    },
+    "updatePIR": {
+        "successHeader": "Erfolg",
+        "successDescription": "PIR-Bewegungsmelder-Wert wurde erfolgreich aktualisiert",
+        "invalidHeader": "Fehler",
+        "invalidDescription": "PIR-Bewegungsmelder-Wert konnte nicht aktualisiert werden"
+    },
+    "deletePIR": {
+        "successHeader": "Erfolg",
+        "successDescription": "PIR-Bewegungsmelder-Wert wurde erfolgreich gelöscht",
+        "invalidHeader": "Fehler",
+        "invalidDescription": "PIR-Bewegungsmelder-Wert konnte nicht gelöscht werden"
+    },
+    "greetingXXX": {
+        "greeting": "Hallo {name} !"
+    }
+}

@@ -1,1 +1,120 @@
-{"$schema":"https://inlang.com/schema/inlang-message-format","fallbackError":{"required":"Required","success":"Success","error":"Error","incorrect":"Incorrect"},"emailAddress":{"required":"Please enter email address.","incorrect":"Your email address is wrong."},"userName":{"required":"Please enter a username.","incorrect":"Your username or password is incorrect."},"password":{"required":"Please enter a password.","incorrect":"Your username or password is incorrect."},"firstName":{"required":"Please enter a first name."},"lastName":{"required":"Please enter a last name."},"resetPassword":{"success":"Change your password using the temporary password.","invalidURL":"Invalid reset password url."},"changePassword":{"success":"The changes have been successful.","mismatch":"The passwords do not match."},"forgotPassword":{"success":"An email was sent successfully.","invalid":"Please enter a valid email address."},"addUnit":{"successHeader":"Success","successDescription":"Unit was added successfully.","invalidHeader":"Failed","invalidDescription":"Failed to add a unit."},"editUnit":{"successHeader":"Success","successDescription":"Unit was updated successfully.","invalidHeader":"Failed","invalidDescription":"Failed to update the unit."},"addClient":{"successHeader":"Success","successDescription":"User was added successfully.","invalidHeader":"Failed","invalidDescription":"Failed to add a user."},"editClient":{"successHeader":"Success","successDescription":"User updated successfully.","invalidHeader":"Failed","invalidDescription":"User could not be updated."},"updateConfig":{"successHeader":"Success","successDescription":"Config was updated successfully.","invalidHeader":"Failed","invalidDescription":"Failed to update a config."},"deleteUnit":{"success":"Unit was deleted successfully.","invalid":"Failed to delete the unit."},"deleteSensor":{"success":"Sensor was deleted successfully.","invalid":"Failed to delete the sensor."},"editSensor":{"successHeader":"Success","successDescription":"Sensor was updated successfully.","invalidHeader":"Failed","invalidDescription":"Failed to update the sensor."},"addUserAccess":{"successHeader":"Success","successDescription":"User was added successfully.","invalidHeader":"Failed","invalidDescription":"Failed to remove user."},"removeUserAccess":{"successHeader":"Success","successDescription":"User removed successfully","invalidHeader":"Failed","invalidDescription":"User removal failed."},"deleteConfig":{"successHeader":"Success","successDescription":"Configuration removed successfully","invalidHeader":"Failed","invalidDescription":"Failed to remove the configuration."},"testConfig":{"success":"Success","invalid":"Failed"},"updatePIR":{"successHeader":"Success","successDescription":"PIR motion detector value has been updated successfully","invalidHeader":"Error","invalidDescription":"Failed to update PIR motion detector value"},"deletePIR":{"successHeader":"Success","successDescription":"PIR motion detector value has been deleted successfully","invalidHeader":"Error","invalidDescription":"Failed to delete PIR motion detector value"}}
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "fallbackError": {
+        "required": "Required",
+        "success": "Success",
+        "error": "Error",
+        "incorrect": "Incorrect"
+    },
+    "greetingXXX": {
+        "greeting": "Hello {name}!"
+    },
+    "emailAddress": {
+        "required": "Please enter email address.",
+        "incorrect": "Your email address is wrong."
+    },
+    "userName": {
+        "required": "Please enter a username.",
+        "incorrect": "Your username or password is incorrect."
+    },
+    "password": {
+        "required": "Please enter a password.",
+        "incorrect": "Your username or password is incorrect."
+    },
+    "firstName": {
+        "required": "Please enter a first name."
+    },
+    "lastName": {
+        "required": "Please enter a last name."
+    },
+    "resetPassword": {
+        "success": "Change your password using the temporary password.",
+        "invalidURL": "Invalid reset password url."
+    },
+    "changePassword": {
+        "success": "The changes have been successful.",
+        "mismatch": "The passwords do not match."
+    },
+    "forgotPassword": {
+        "success": "An email was sent successfully.",
+        "invalid": "Please enter a valid email address."
+    },
+    "addUnit": {
+        "successHeader": "Success",
+        "successDescription": "Unit was added successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to add a unit."
+    },
+    "editUnit": {
+        "successHeader": "Success",
+        "successDescription": "Unit was updated successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to update the unit."
+    },
+    "addClient": {
+        "successHeader": "Success",
+        "successDescription": "User was added successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to add a user."
+    },
+    "editClient": {
+        "successHeader": "Success",
+        "successDescription": "User updated successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "User could not be updated."
+    },
+    "updateConfig": {
+        "successHeader": "Success",
+        "successDescription": "Config was updated successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to update a config."
+    },
+    "deleteUnit": {
+        "success": "Unit was deleted successfully.",
+        "invalid": "Failed to delete the unit."
+    },
+    "deleteSensor": {
+        "success": "Sensor was deleted successfully.",
+        "invalid": "Failed to delete the sensor."
+    },
+    "editSensor": {
+        "successHeader": "Success",
+        "successDescription": "Sensor was updated successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to update the sensor."
+    },
+    "addUserAccess": {
+        "successHeader": "Success",
+        "successDescription": "User was added successfully.",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to remove user."
+    },
+    "removeUserAccess": {
+        "successHeader": "Success",
+        "successDescription": "User removed successfully",
+        "invalidHeader": "Failed",
+        "invalidDescription": "User removal failed."
+    },
+    "deleteConfig": {
+        "successHeader": "Success",
+        "successDescription": "Configuration removed successfully",
+        "invalidHeader": "Failed",
+        "invalidDescription": "Failed to remove the configuration."
+    },
+    "testConfig": {
+        "success": "Success",
+        "invalid": "Failed"
+    },
+    "updatePIR": {
+        "successHeader": "Success",
+        "successDescription": "PIR motion detector value has been updated successfully",
+        "invalidHeader": "Error",
+        "invalidDescription": "Failed to update PIR motion detector value"
+    },
+    "deletePIR": {
+        "successHeader": "Success",
+        "successDescription": "PIR motion detector value has been deleted successfully",
+        "invalidHeader": "Error",
+        "invalidDescription": "Failed to delete PIR motion detector value"
+    }
+}

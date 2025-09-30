@@ -1,0 +1,120 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"fallbackError": {
+		"required": "Requis",
+		"success": "Succès",
+		"error": "Erreur",
+		"incorrect": "Incorrect"
+	},
+	"emailAddress": {
+		"required": "Veuillez saisir votre adresse e-mail.",
+		"incorrect": "Votre adresse email est erronée."
+	},
+	"userName": {
+		"required": "Veuillez entrer un nom d'utilisateur.",
+		"incorrect": "Votre nom d'utilisateur ou votre mot de passe est incorrect."
+	},
+	"password": {
+		"required": "Veuillez entrer un mot de passe.",
+		"incorrect": "Votre nom d'utilisateur ou votre mot de passe est incorrect."
+	},
+	"firstName": {
+		"required": "Veuillez entrer un prénom."
+	},
+	"lastName": {
+		"required": "Veuillez entrer un nom de famille."
+	},
+	"resetPassword": {
+		"success": "Modifiez votre mot de passe en utilisant le mot de passe temporaire.",
+		"invalidURL": "URL de réinitialisation du mot de passe non valide."
+	},
+	"changePassword": {
+		"success": "Les changements ont été couronnés de succès.",
+		"mismatch": "Les mots de passe ne correspondent pas."
+	},
+	"forgotPassword": {
+		"success": "Un e-mail a été envoyé avec succès.",
+		"invalid": "S'il vous plaît, mettez une adresse email valide."
+	},
+	"addUnit": {
+		"successHeader": "Succès",
+		"successDescription": "L'unité a été ajoutée avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Impossible d'ajouter une unité."
+	},
+	"editUnit": {
+		"successHeader": "Succès",
+		"successDescription": "L'unité a été mise à jour avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de la mise à jour de l'unité."
+	},
+	"addClient": {
+		"successHeader": "Succès",
+		"successDescription": "L'utilisateur a été ajouté avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de l'ajout d'un utilisateur."
+	},
+	"editClient": {
+		"successHeader": "Succès",
+		"successDescription": "L'utilisateur a été mis à jour avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "L'utilisateur n'a pas pu être mis à jour."
+	},
+	"updateConfig": {
+		"successHeader": "Succès",
+		"successDescription": "La configuration a été mise à jour avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de la mise à jour d'une configuration."
+	},
+	"deleteUnit": {
+		"success": "L'unité a été supprimée avec succès.",
+		"invalid": "Échec de la suppression de l'unité."
+	},
+	"deleteSensor": {
+		"success": "Le capteur a été supprimé avec succès.",
+		"invalid": "Échec de la suppression du capteur."
+	},
+	"editSensor": {
+		"successHeader": "Succès",
+		"successDescription": "Le capteur a été mis à jour avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de la mise à jour du capteur."
+	},
+	"addUserAccess": {
+		"successHeader": "Succès",
+		"successDescription": "L'utilisateur a été ajouté avec succès.",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de la suppression de l'utilisateur."
+	},
+	"removeUserAccess": {
+		"successHeader": "Succès",
+		"successDescription": "L'utilisateur a été supprimé avec succès",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "La suppression de l'utilisateur a échoué."
+	},
+	"deleteConfig": {
+		"successHeader": "Succès",
+		"successDescription": "Configuration supprimée avec succès",
+		"invalidHeader": "Échoué",
+		"invalidDescription": "Échec de la suppression de la configuration."
+	},
+	"testConfig": {
+		"success": "Succès",
+		"invalid": "Échoué"
+	},
+	"updatePIR": {
+		"successHeader": "Succès",
+		"successDescription": "La valeur du détecteur de mouvement PIR a été mise à jour avec succès",
+		"invalidHeader": "Erreur",
+		"invalidDescription": "Échec de la mise à jour de la valeur du détecteur de mouvement PIR"
+	},
+	"deletePIR": {
+		"successHeader": "Succès",
+		"successDescription": "La valeur du détecteur de mouvement PIR a été supprimée avec succès",
+		"invalidHeader": "Erreur",
+		"invalidDescription": "Échec de la suppression de la valeur du détecteur de mouvement PIR"
+	},
+	"greetingXXX": {
+		"greeting": "Bonjour {name} !"
+	}
+}
