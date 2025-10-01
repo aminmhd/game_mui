@@ -1,0 +1,120 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"fallbackError": {
+		"required": "Requerido",
+		"success": "Éxito",
+		"error": "Error",
+		"incorrect": "Incorrecto"
+	},
+	"greetingXXX": {
+		"greeting": "¡Hola {name} !"
+	},
+	"emailAddress": {
+		"required": "Por favor, introduzca su dirección de correo electrónico.",
+		"incorrect": "Su dirección de correo electrónico es incorrecta"
+	},
+	"userName": {
+		"required": "Por favor, introduzca un nombre de usuario.",
+		"incorrect": "Su nombre de usuario o contraseña es incorrecto."
+	},
+	"password": {
+		"required": "Por favor, introduzca una contraseña.",
+		"incorrect": "Su nombre de usuario o contraseña es incorrecto."
+	},
+	"firstName": {
+		"required": "Por favor, introduzca un nombre."
+	},
+	"lastName": {
+		"required": "Por favor, introduzca un apellido."
+	},
+	"resetPassword": {
+		"success": "Cambie su contraseña utilizando la contraseña temporal.",
+		"invalidURL": "URL de restablecimiento de contraseña no válida."
+	},
+	"changePassword": {
+		"success": "Los cambios han tenido éxito.",
+		"mismatch": "Las contraseñas no coinciden."
+	},
+	"forgotPassword": {
+		"success": "Se envió un correo electrónico exitosamente.",
+		"invalid": "Por favor, introduce una dirección de correo electrónico válida."
+	},
+	"addUnit": {
+		"successHeader": "Éxito",
+		"successDescription": "La unidad se agregó exitosamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo agregar una unidad."
+	},
+	"editUnit": {
+		"successHeader": "Éxito",
+		"successDescription": "La unidad se actualizó exitosamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo actualizar la unidad."
+	},
+	"addClient": {
+		"successHeader": "Éxito",
+		"successDescription": "El usuario fue agregado exitosamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo agregar un usuario."
+	},
+	"editClient": {
+		"successHeader": "Éxito",
+		"successDescription": "Usuario actualizado exitosamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo actualizar el usuario."
+	},
+	"updateConfig": {
+		"successHeader": "Éxito",
+		"successDescription": "La configuración se actualizó correctamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo actualizar una configuración."
+	},
+	"deleteUnit": {
+		"success": "La unidad fue eliminada exitosamente.",
+		"invalid": "No se pudo eliminar la unidad."
+	},
+	"deleteSensor": {
+		"success": "El sensor se eliminó correctamente.",
+		"invalid": "No se pudo eliminar el sensor."
+	},
+	"editSensor": {
+		"successHeader": "Éxito",
+		"successDescription": "El sensor se actualizó correctamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo actualizar el sensor."
+	},
+	"addUserAccess": {
+		"successHeader": "Éxito",
+		"successDescription": "El usuario fue agregado exitosamente.",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo eliminar el usuario."
+	},
+	"removeUserAccess": {
+		"successHeader": "Éxito",
+		"successDescription": "Usuario eliminado exitosamente",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "Error en la eliminación del usuario."
+	},
+	"deleteConfig": {
+		"successHeader": "Éxito",
+		"successDescription": "Configuración eliminada exitosamente",
+		"invalidHeader": "Fallido",
+		"invalidDescription": "No se pudo eliminar la configuración."
+	},
+	"testConfig": {
+		"success": "Éxito",
+		"invalid": "Fallido"
+	},
+	"updatePIR": {
+		"successHeader": "Éxito",
+		"successDescription": "El valor del detector de movimiento PIR se ha actualizado correctamente",
+		"invalidHeader": "Error",
+		"invalidDescription": "No se pudo actualizar el valor del detector de movimiento PIR"
+	},
+	"deletePIR": {
+		"successHeader": "Éxito",
+		"successDescription": "El valor del detector de movimiento PIR se ha eliminado correctamente",
+		"invalidHeader": "Error",
+		"invalidDescription": "No se pudo eliminar el valor del detector de movimiento PIR"
+	}
+}
