@@ -14,7 +14,7 @@ const menuBarSlice = createSlice({
         }
     }
 
-})
+})  
 
 
 export const { openSideBar } = menuBarSlice.actions;

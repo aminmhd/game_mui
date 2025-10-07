@@ -6,12 +6,28 @@ import SearchBar from "./SearchBar/SearchBar";
 import Cart from "./Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
 import { getGames } from "../redux/gameSlice/GameSlice";
+import { getComments } from "../redux/testSlice/TestSlice";
+import { t } from "../paraglide/messages"
 
 
 export default function Main() {
     const gamesList = useSelector((store) => store.gamesApiSlice.games);
     const isLoading = useSelector((store) => store.gamesApiSlice.isLoading);
     const dispatch = useDispatch();
+
+    // const comments = useSelector((store) => store.testQuerySlice.comments);
+
+    // useEffect(() => {
+    //   dispatch(getComments())
+
+    // }, [dispatch])
+
+
+    console.log(t["addClient.invalidDescription"]())
+
+
+
+    // console.log(comments)
 
 
 
@@ -22,7 +38,9 @@ export default function Main() {
 
     if (isLoading) {
         return (
+
             <Box
+
                 sx={{
                     display: 'flex',
                     justifyContent: 'center',
@@ -37,6 +55,7 @@ export default function Main() {
 
     return (
         <>
+            {t["addClient.invalidDescription"]()}
             <AppBarUp />
             <SideBar />
 
