@@ -7,7 +7,7 @@
         "incorrect": "Falsch"
     },
     "emailAddress": {
-        "required": "Bitte geben Sie eine gültige Emailadresse ein.",
+        "required": "Bitte geben Sie eine gültige Emailadresse ein.Amin",
         "incorrect": "Ihr Emailadresse ist falsch."
     },
     "userName": {
@@ -115,7 +115,6 @@
         "invalidDescription": "PIR-Bewegungsmelder-Wert konnte nicht gelöscht werden"
     },
     "greetingXXX": {
-        "greeting": "Hallo {name} !"
+        "greeting": "Hello {name}!"
     }
-    
 }
